@@ -1,3 +1,3 @@
-import {Meteor} from 'meteor/meteor';
+import {Mongo} from 'meteor/mongo';
 
-export var Parties = new Meteor.Collection('parties');
+export var Parties = new Mongo.Collection('parties');

@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import 'zone.js/dist/zone';
 import {Component, NgZone} from 'angular2/core';
 import {bootstrap} from 'angular2-meteor-auto-bootstrap';
+import {Mongo} from 'meteor/mongo';
 import {Parties} from '../collections/parties.ts';
 
 @Component({
